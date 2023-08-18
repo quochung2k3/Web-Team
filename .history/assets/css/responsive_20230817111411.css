@@ -1,0 +1,17 @@
+@media(max-width: 740px) {
+    #nav {
+        display: block;
+        position: relative;
+    }
+    #menu-mobile {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    #nav > li {
+        display: block;
+    }
+    #header .search-button {
+        display: none;
+    }
+}

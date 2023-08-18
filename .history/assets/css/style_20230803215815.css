@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+
+}
+
+#header {
+    background-color: #000;
+    height: 46px;
+}
+
+#nav {
+
+}
+
+#nav li {
+    display: inline-block;
+    position: relative;
+}
+
+#nav > li > a {
+    color: #fff;
+}
+
+#nav li a {
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: inline-block;
+}
+
+#nav > li:hover > a {
+    background-color: #ccc;
+    color: #000;
+}
+
+#nav .subnav {
+    position: absolute;
+    background-color: #fff;
+}
+
+#nav .subnav a {
+    color: #000;
+}
+
+#nav .subnav li:hover {
+
+}
+
+#slider {
+    min-height: 500px;
+    background-color: #333;
+}
+
+#content {
+
+}
+
+#footer {
+
+}
